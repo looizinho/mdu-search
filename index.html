@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MDU Search Field</title>
+	<script src="https://kit.fontawesome.com/288382f441.js" crossorigin="anonymous"></script>
+	<style>
+		.search {
+			padding: 5px;
+			border: none;
+			width: 15px;
+			border: 1px solid black;
+			border-radius: 15px;
+			color: black;
+			transition: 100ms;
+		}
+
+		.search::placeholder {
+			text-align: right;
+			font-family: FontAwesome;
+		}
+
+		.search:focus {
+			width: 200px;
+			transition: 300ms;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="searchbar">
+		<input type="text" class="search" id="search" placeholder="&#xF002;">
+	</div>
+	
+</body>
+</html>
